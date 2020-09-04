@@ -106,13 +106,9 @@ def write_grid(ds, files, tile_shape, volumes_per_row, dry_run=False):
 
 
 # think about adding this to the mobie tools
-def make_grid_dataset(root, chunks,
+def make_grid_dataset(files, chunks,
                       output_path, output_key,
                       volumes_per_row=10, dry_run=False):
-    pattern = os.path.join(root, '*.h5')
-    files = glob(pattern)
-    files.sort()
-
     big_shape, tile_shape = get_array_shape(files, chunks[1:], volumes_per_row)
     with h5py.File(files[0], 'r') as f:
         dtype = f[KEY].dtype
@@ -135,8 +131,8 @@ def get_resolution(dataset_name):
     return [re / 1000. for re in res_nm]
 
 
-def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution,
-                   overwrite=False):
+def make_bookmarks(dataset_folder, grid_center_positions, files,
+                   raw_name, resolution, overwrite=False):
     # add the default bookmark
     add_bookmark(dataset_folder, 'default', 'default',
                  overwrite=overwrite,
@@ -150,11 +146,13 @@ def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution,
     ax, bx = -474.7, 41.3
     ay, by = -473.5, 9.3
 
+    ii = 0
     # add bookmarks for the grid positions
     for grid_pos, center in grid_center_positions.items():
         row_id, col_id = grid_pos
-        row_letter = chr(ord('@') + row_id + 1)
-        bookmark_name = f'{row_letter}{col_id}'
+
+        fname = files[ii]
+        bookmark_name = os.path.splitext(os.path.split(fname)[1])[0]
         print(bookmark_name)
 
         position = [ce * res for ce, res in zip(center, resolution)]
@@ -177,6 +175,7 @@ def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution,
                      position=position[::-1],
                      view=view,
                      overwrite=overwrite)
+        ii += 1
 
 
 def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
@@ -192,8 +191,12 @@ def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
     resolution = get_resolution(dataset_name)
     scale_factors = [[1, 2, 2], [1, 2, 2], [1, 2, 2], [2, 2, 2]]
 
+    pattern = os.path.join(root_in, '*.h5')
+    files = glob(pattern)
+    files.sort()
+
     out_key = 'setup0/timepoint0/s0'
-    grid_center_positions = make_grid_dataset(root_in, chunks, data_path, out_key,
+    grid_center_positions = make_grid_dataset(files, chunks, data_path, out_key,
                                               volumes_per_row=volumes_per_row, dry_run=False)
 
     tmp_folder = f'tmp_{dataset_name}'
@@ -203,7 +206,7 @@ def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
 
     add_to_image_dict(dataset_folder, 'image', xml_path, add_remote=True)
 
-    make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution)
+    make_bookmarks(dataset_folder, grid_center_positions, files, raw_name, resolution)
 
     add_dataset(root_out, dataset_name, is_default)
 
@@ -240,11 +243,15 @@ def test_bookmarks(dataset_name, root_in, volumes_per_row=10):
     chunks = (32, 128, 128)
     resolution = get_resolution(dataset_name)
 
+    pattern = os.path.join(root_in, '*.h5')
+    files = glob(pattern)
+    files.sort()
+
     out_key = 'setup0/timepoint0/s0'
-    grid_center_positions = make_grid_dataset(root_in, chunks, data_path, out_key,
+    grid_center_positions = make_grid_dataset(files, chunks, data_path, out_key,
                                               volumes_per_row=volumes_per_row, dry_run=True)
 
-    make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution, overwrite=True)
+    make_bookmarks(dataset_folder, grid_center_positions, files, raw_name, resolution, overwrite=True)
 
 
 def create_test_dataset():
@@ -259,5 +266,5 @@ def create_test_dataset():
 
 
 if __name__ == '__main__':
-    # create_all_datasets()
-    create_test_dataset()
+    create_all_datasets()
+    # create_test_dataset()
