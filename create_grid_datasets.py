@@ -6,6 +6,9 @@ import h5py
 import z5py
 
 from elf.parallel import copy_dataset
+from elf.transformation import matrix_to_parameters
+from elf.transformation.affine import affine_matrix_3d
+
 from mobie.initialization import make_dataset_folders
 from mobie.metadata import add_to_image_dict, add_bookmark, add_dataset, have_dataset
 from mobie.import_data.util import downscale
@@ -49,12 +52,16 @@ def get_array_shape(files, chunk_size, volumes_per_row):
 
 def get_center(grid_point,
                tile_shape, tile_chunks,
-               shape):
+               shape, z_max):
 
+    # find the lower corner in the plane
     lower_corner = tuple(ts * gp for ts, gp in zip(tile_shape, grid_point))
     lower_corner = tuple((lc + gp * tc) if gp > 0 else lc
                          for lc, gp, tc in zip(lower_corner, grid_point, tile_chunks))
-    lower_corner = (0,) + lower_corner
+
+    # center align the z-slices
+    z0 = (z_max - shape[0]) // 2
+    lower_corner = (z0,) + lower_corner
 
     center_point = tuple(lc + sh // 2 for lc, sh in zip(lower_corner, shape))
 
@@ -68,6 +75,7 @@ def write_grid(ds, files, tile_shape, volumes_per_row, dry_run=False):
     grid_to_centers = {}
 
     tile_chunks = ds.chunks[1:]
+    z_max = ds.shape[0]
     for file_id, in_file in enumerate(files):
 
         with h5py.File(in_file, 'r') as f:
@@ -75,7 +83,7 @@ def write_grid(ds, files, tile_shape, volumes_per_row, dry_run=False):
             shape = ds_in.shape
             center_point = get_center((row_id, col_id),
                                       tile_shape, tile_chunks,
-                                      shape)
+                                      shape, z_max)
             bounding_box = tuple(slice(ce - sh // 2, ce + sh // 2)
                                  for ce, sh in zip(center_point, shape))
 
@@ -127,10 +135,20 @@ def get_resolution(dataset_name):
     return [re / 1000. for re in res_nm]
 
 
-def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution):
+def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution,
+                   overwrite=False):
     # add the default bookmark
-    add_bookmark(dataset_folder, 'default', 'default', raw_name,
-                 settings={'contrastLimits': [0., 255.]})
+    add_bookmark(dataset_folder, 'default', 'default',
+                 overwrite=overwrite,
+                 layer_settings={raw_name: {'contrastLimits': [0., 255.]}})
+
+    # For now, the parameters for the offsets in the affine views are
+    # derived from a linear fit to some views, see find_affines.py
+    # there should be an analytical way to do this, need to discuss with Tischi ...
+    # also it's weird that these are not quite symmetric in xy ...
+    # linear fit parameter
+    ax, bx = -474.7, 41.3
+    ay, by = -473.5, 9.3
 
     # add bookmarks for the grid positions
     for grid_pos, center in grid_center_positions.items():
@@ -139,16 +157,26 @@ def make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution):
         bookmark_name = f'{row_letter}{col_id}'
         print(bookmark_name)
 
-        position = [ce * res for ce, res in zip(center[::-1], resolution[::-1])]
+        position = [ce * res for ce, res in zip(center, resolution)]
 
-        bookmark_settings = {
-            'contrastLimits': [0., 255.],
-            'position': position
-        }
+        # compute the correct view:
+        # field of view that (roughly covers) one tomogram
+        scale = 3 * [140.]
 
-        add_bookmark(dataset_folder, 'default',
-                     bookmark_name, raw_name,
-                     settings=bookmark_settings)
+        # fixed z translation
+        tz = -21.6
+        # translation in plane from linear fit to some bdv values ...
+        tx = ax * row_id + bx
+        ty = ay * col_id + by
+        translation = [tz, ty, tx]
+
+        view = affine_matrix_3d(scale=scale, translation=translation)
+        view = matrix_to_parameters(view)
+
+        add_bookmark(dataset_folder, 'default', bookmark_name,
+                     position=position[::-1],
+                     view=view,
+                     overwrite=overwrite)
 
 
 def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
@@ -201,11 +229,6 @@ def create_all_datasets():
         is_default = False
 
 
-# TODO still need to create proper bookmark positions with views
-# for example, for A0 it should be
-# BigDataViewer position: (1.4149092667608312,1.531721606955132,0.14800999999999995)
-# BigDataViewer transform: 138.13944864936755, 0.0, 0.0, 55.54521400077786, 0.0, 138.13944864936755, 0.0, 17.408821730894772, 0.0, 0.0, 138.13944864936755, -20.446019794592885
-# Maybe just need to copy the scale factors and somehow adapt the positions oO
 def test_bookmarks(dataset_name, root_in, volumes_per_row=10):
 
     root_out = './data'
@@ -221,16 +244,18 @@ def test_bookmarks(dataset_name, root_in, volumes_per_row=10):
     grid_center_positions = make_grid_dataset(root_in, chunks, data_path, out_key,
                                               volumes_per_row=volumes_per_row, dry_run=True)
 
-    make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution)
+    make_bookmarks(dataset_folder, grid_center_positions, raw_name, resolution, overwrite=True)
 
 
 def create_test_dataset():
     root = './test_input'
     dataset_name = 'test'
     if have_dataset('./data', dataset_name):
-        test_bookmarks(dataset_name, root, volumes_per_row=2)
+        print("Updating bookmarks...")
+        test_bookmarks(dataset_name, root, volumes_per_row=4)
     else:
-        create_mobie_dataset(dataset_name, root, is_default=True, volumes_per_row=2)
+        print("Creating test dataset ...")
+        create_mobie_dataset(dataset_name, root, is_default=True, volumes_per_row=4)
 
 
 if __name__ == '__main__':
