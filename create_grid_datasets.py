@@ -27,7 +27,9 @@ def get_array_shape(files, chunk_size, volumes_per_row):
     shapes = []
     n_files = len(files)
 
-    assert n_files >= volumes_per_row
+    # assert n_files >= volumes_per_row, f"{n_files}, {volumes_per_row}"
+    if n_files > volumes_per_row:
+        volumes_per_row = n_files
 
     n_rows = n_files / float(volumes_per_row)
     if n_files % volumes_per_row == 0:
