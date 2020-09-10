@@ -28,7 +28,7 @@ def get_array_shape(files, chunk_size, volumes_per_row):
     n_files = len(files)
 
     # assert n_files >= volumes_per_row, f"{n_files}, {volumes_per_row}"
-    if n_files > volumes_per_row:
+    if n_files < volumes_per_row:
         volumes_per_row = n_files
 
     n_rows = n_files / float(volumes_per_row)
@@ -103,7 +103,6 @@ def write_grid(ds, files, tile_shape, volumes_per_row, dry_run=False):
             col_id = 0
             row_id += 1
 
-    print(grid_to_centers)
     return grid_to_centers
 
 
