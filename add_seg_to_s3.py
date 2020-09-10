@@ -39,4 +39,4 @@ if __name__ == '__main__':
         'Calu3_MOI5_24h_C2',
         'Calu_MOI5_6h_K2'
     ]
-    ds_to_s3(ds_names[0])
+    ds_to_s3(ds_names[3])
