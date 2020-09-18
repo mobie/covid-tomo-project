@@ -144,8 +144,8 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
     # there should be an analytical way to do this, need to discuss with Tischi ...
     # also it's weird that these are not quite symmetric in xy ...
     # linear fit parameter
-    ax, bx = -474.7, 41.3
-    ay, by = -473.5, 9.3
+    ax, bx = -0.91732143, -0.44715057475198905
+    ay, by = -0.92478852, -0.4337483002173521
 
     ii = 0
     # add bookmarks for the grid positions
@@ -160,10 +160,10 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
 
         # compute the correct view:
         # field of view that (roughly covers) one tomogram
-        scale = 3 * [140.]
+        scale = 3 * [0.2745448396519001]
 
         # fixed z translation
-        tz = -21.6
+        tz = 0.2745448396519001
         # translation in plane from linear fit to some bdv values ...
         tx = ax * row_id + bx
         ty = ay * col_id + by
@@ -174,7 +174,7 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
 
         add_bookmark(dataset_folder, 'default', bookmark_name,
                      position=position[::-1],
-                     view=view,
+                     norm_view=view,
                      overwrite=overwrite)
         ii += 1
 
@@ -218,7 +218,7 @@ def create_all_datasets():
         'Calu3_MOI5_12h_E3',
         'Calu3_MOI5_24h_C2',
         'Calu_MOI5_6h_K2',
-	'E2094_mock_O1'
+        'E2094_mock_O1'
     ]
 
     is_default = True
@@ -234,7 +234,7 @@ def create_all_datasets():
         is_default = False
 
 
-def test_bookmarks(dataset_name, root_in, volumes_per_row=10):
+def update_bookmarks(dataset_name, root_in, volumes_per_row=10):
 
     root_out = './data'
     dataset_folder = os.path.join(root_out, dataset_name)
@@ -261,12 +261,28 @@ def create_test_dataset():
     dataset_name = 'test'
     if have_dataset('./data', dataset_name):
         print("Updating bookmarks...")
-        test_bookmarks(dataset_name, root, volumes_per_row=4)
+        update_bookmarks(dataset_name, root, volumes_per_row=4)
     else:
         print("Creating test dataset ...")
         create_mobie_dataset(dataset_name, root, is_default=True, volumes_per_row=4)
 
 
+def update_all_bookmarks():
+    ds_names = [
+        'Calu3_MOI0.5_24h_H2',
+        'Calu3_MOI5_12h_E3',
+        'Calu3_MOI5_24h_C2',
+        'Calu_MOI5_6h_K2',
+        # don't have write permissions, need to hack this one once the others work
+        # 'E2094_mock_O1'
+    ]
+
+    for ds in ds_names:
+        root_in = f'/g/emcf/common/5792_Sars-Cov-2/Exp_300420/TEM/Tomography/raw_data/{ds}/bdv/tomos'
+        update_bookmarks(ds, root_in)
+
+
 if __name__ == '__main__':
-    create_all_datasets()
+    update_bookmarks()
+    # create_all_datasets()
     # create_test_dataset()
