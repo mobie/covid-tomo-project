@@ -283,6 +283,6 @@ def update_all_bookmarks():
 
 
 if __name__ == '__main__':
-    update_bookmarks()
+    update_all_bookmarks()
     # create_all_datasets()
     # create_test_dataset()
