@@ -144,8 +144,8 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
     # there should be an analytical way to do this, need to discuss with Tischi ...
     # also it's weird that these are not quite symmetric in xy ...
     # linear fit parameter
-    ax, bx = -0.91732143, -0.44715057475198905
-    ay, by = -0.92478852, -0.4337483002173521
+    ax, bx = -1.0098662207357856, -0.5158646667105433
+    ay, by = -1.0180602006688966, -0.49540680396285763
 
     ii = 0
     # add bookmarks for the grid positions
@@ -160,14 +160,14 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
 
         # compute the correct view:
         # field of view that (roughly covers) one tomogram
-        scale = 3 * [0.2745448396519001]
+        scale = 3 * [0.30268568571622034]
 
         # fixed z translation
-        tz = 0.2745448396519001
+        tz = -0.046215261237895364
         # translation in plane from linear fit to some bdv values ...
         tx = ax * row_id + bx
         ty = ay * col_id + by
-        translation = [tz, ty, tx]
+        translation = [ty, tx, tz]
 
         view = affine_matrix_3d(scale=scale, translation=translation)
         view = matrix_to_parameters(view)
@@ -273,8 +273,7 @@ def update_all_bookmarks():
         'Calu3_MOI5_12h_E3',
         'Calu3_MOI5_24h_C2',
         'Calu_MOI5_6h_K2',
-        # don't have write permissions, need to hack this one once the others work
-        # 'E2094_mock_O1'
+        'E2094_mock_O1'
     ]
 
     for ds in ds_names:
