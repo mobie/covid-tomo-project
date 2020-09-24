@@ -21,6 +21,11 @@ DATASETS = {
     'E2094_mock_O1': 'T7 - Mock'
 }
 
+TABLE_LENS = {
+    'Calu3_MOI5_24h_C2': 57,
+    'E2094_mock_O1': 13
+}
+
 
 def make_default_table(dataset, resolution):
     key = 'setup0/timepoint0/s0'
@@ -54,10 +59,18 @@ def make_default_table(dataset, resolution):
 def parse_table(table_path, dataset, valid_names):
     sheet_name = DATASETS[dataset]
     tomo_table = pd.read_excel(table_path, sheet_name=sheet_name, header=1)
-    print(tomo_table.shape)
     cols = tomo_table.columns.values
-    cols[0] = 'tomogram'
+    cols[1] = 'tomogram'
     tomo_table.columns = cols
+
+    # for some of the sheets panda parses garbage rows, so we hard-code the number of rows
+    # to be parsed for these sheets
+    exp_len = TABLE_LENS.get(dataset, None)
+    if exp_len is not None:
+        tomo_table = pd.DataFrame(tomo_table.values[:exp_len],
+                                  columns=tomo_table.columns)
+
+    print(tomo_table['tomogram'])
     tomo_table = tomo_table[valid_names]
     tomo_table = tomo_table.replace(nan, 0)
     tomo_table = tomo_table.replace('x', 1)
@@ -65,7 +78,7 @@ def parse_table(table_path, dataset, valid_names):
     return tomo_table
 
 
-def make_new_table(dataset, table_save_path, resolution, with_viral_structures):
+def make_new_table(dataset, table_save_path, resolution, with_viral_structures, skip_hma):
 
     valid_names = [
         'tomogram'  # this is for the filename
@@ -101,17 +114,25 @@ def make_new_table(dataset, table_save_path, resolution, with_viral_structures):
         valid_names = valid_names + cellular_names
 
     tomo_table = parse_table(TABLE_NAME, dataset, valid_names)
-    # TODO need to handle mock cell dataset differently
 
     old_names = tomo_table['tomogram'].values.copy()
     new_names = ['%03i' % i for i in range(1, len(old_names) + 1)]
     tomo_table['tomogram'] = new_names
 
+    if skip_hma:
+        hma_row = [i for i, val in enumerate(old_names) if 'hma' in val]
+        assert len(hma_row) == 1
+        tomo_table = tomo_table.drop(labels=hma_row, axis=0)
+
     name_dict = dict(zip(old_names, new_names))
     with open(f'tomo_names_{dataset}.json', 'w') as f:
         json.dump(name_dict, f)
-    return
     default_table, label_table = make_default_table(dataset, resolution)
+
+    print()
+    print(tomo_table.shape)
+    print(default_table.shape)
+    print()
 
     table = np.concatenate([label_table.values,
                             tomo_table.values,
@@ -137,17 +158,20 @@ def update_table(dataset):
 
     table_folder = os.path.join(ds_folder, 'tables', seg_name)
     os.makedirs(table_folder, exist_ok=True)
-    table_save_path = os.path.join(table_folder, 'default.csv')
-    make_new_table(dataset, table_save_path, resolution,
-                   with_viral_structures=dataset != 'E2094_mock_O1')
 
     if not os.path.exists(seg_path):
+        print("Creating mock segmentation")
         tmp_folder = f'./tmp_seg_{dataset}'
         mock_segmentation(dataset, seg_name, scale_factor, resolution, tmp_folder)
         add_to_image_dict(ds_folder, 'segmentation', seg_path,
                           table_folder=table_folder)
 
+    table_save_path = os.path.join(table_folder, 'default.csv')
+    make_new_table(dataset, table_save_path, resolution,
+                   with_viral_structures=dataset != 'E2094_mock_O1',
+                   skip_hma=dataset == 'Calu3_MOI5_24h_C2')
+
 
 if __name__ == '__main__':
     ds_names = list(DATASETS.keys())
-    update_table(ds_names[1])
+    update_table(ds_names[4])

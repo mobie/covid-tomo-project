@@ -178,7 +178,19 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
         ii += 1
 
 
-def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
+def sort_files(files, int_sort):
+    if int_sort:
+        root = os.path.split(files[0])[0]
+        file_names = [int(os.path.split(files)[1].split('_')[0]) for files in files]
+        file_names.sort()
+        files = [os.path.join(root, str(fname) + '_hm.h5') for fname in file_names]
+        print(files)
+    else:
+        files.sort()
+    return files
+
+
+def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10, int_sort=False):
 
     root_out = './data'
     dataset_folder = make_dataset_folders(root_out, dataset_name)
@@ -193,7 +205,7 @@ def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
 
     pattern = os.path.join(root_in, '*.h5')
     files = glob(pattern)
-    files.sort()
+    files = sort_files(files, int_sort)
 
     out_key = 'setup0/timepoint0/s0'
     grid_center_positions = make_grid_dataset(files, chunks, data_path, out_key,
@@ -208,7 +220,7 @@ def create_mobie_dataset(dataset_name, root_in, is_default, volumes_per_row=10):
 
     make_bookmarks(dataset_folder, grid_center_positions, files, raw_name, resolution)
 
-    add_dataset(root_out, dataset_name, is_default)
+    # add_dataset(root_out, dataset_name, is_default)
 
 
 def create_all_datasets():
@@ -233,7 +245,7 @@ def create_all_datasets():
         is_default = False
 
 
-def update_bookmarks(dataset_name, root_in, volumes_per_row=10):
+def update_bookmarks(dataset_name, root_in, volumes_per_row=10, int_sort=False):
 
     root_out = './data'
     dataset_folder = os.path.join(root_out, dataset_name)
@@ -246,7 +258,7 @@ def update_bookmarks(dataset_name, root_in, volumes_per_row=10):
 
     pattern = os.path.join(root_in, '*.h5')
     files = glob(pattern)
-    files.sort()
+    files = sort_files(files, int_sort)
 
     out_key = 'setup0/timepoint0/s0'
     grid_center_positions = make_grid_dataset(files, chunks, data_path, out_key,
@@ -281,6 +293,12 @@ def update_all_bookmarks():
 
 
 if __name__ == '__main__':
-    update_all_bookmarks()
+    # update_all_bookmarks()
     # create_all_datasets()
     # create_test_dataset()
+
+    # fix issues witht he mock cell dataset
+    ds_name = 'E2094_mock_O1'
+    root = f'/g/emcf/common/5792_Sars-Cov-2/Exp_300420/TEM/Tomography/raw_data/{ds_name}/bdv/tomos'
+    create_mobie_dataset(ds_name, root, is_default=False, int_sort=True)
+    update_bookmarks(ds_name, root, int_sort=True)
