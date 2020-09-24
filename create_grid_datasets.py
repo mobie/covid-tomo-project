@@ -133,7 +133,7 @@ def get_resolution(dataset_name):
 
 
 def make_bookmarks(dataset_folder, grid_center_positions, files,
-                   raw_name, resolution, overwrite=False):
+                   raw_name, resolution, overwrite=False, ordered_names=False):
     # add the default bookmark
     add_bookmark(dataset_folder, 'default', 'default',
                  overwrite=overwrite,
@@ -152,8 +152,11 @@ def make_bookmarks(dataset_folder, grid_center_positions, files,
     for grid_pos, center in grid_center_positions.items():
         row_id, col_id = grid_pos
 
-        fname = files[ii]
-        bookmark_name = os.path.splitext(os.path.split(fname)[1])[0]
+        if ordered_names:
+            bookmark_name = '%03i' % (ii + 1,)
+        else:
+            fname = files[ii]
+            bookmark_name = os.path.splitext(os.path.split(fname)[1])[0]
         print(bookmark_name)
 
         # position = [ce * res for ce, res in zip(center, resolution)]
@@ -245,7 +248,7 @@ def create_all_datasets():
         is_default = False
 
 
-def update_bookmarks(dataset_name, root_in, volumes_per_row=10, int_sort=False):
+def update_bookmarks(dataset_name, root_in, volumes_per_row=10, int_sort=False, ordered_names=False):
 
     root_out = './data'
     dataset_folder = os.path.join(root_out, dataset_name)
@@ -264,7 +267,8 @@ def update_bookmarks(dataset_name, root_in, volumes_per_row=10, int_sort=False):
     grid_center_positions = make_grid_dataset(files, chunks, data_path, out_key,
                                               volumes_per_row=volumes_per_row, dry_run=True)
 
-    make_bookmarks(dataset_folder, grid_center_positions, files, raw_name, resolution, overwrite=True)
+    make_bookmarks(dataset_folder, grid_center_positions, files, raw_name, resolution,
+                   overwrite=True, ordered_names=ordered_names)
 
 
 def create_test_dataset():
@@ -300,5 +304,5 @@ if __name__ == '__main__':
     # fix issues witht he mock cell dataset
     ds_name = 'E2094_mock_O1'
     root = f'/g/emcf/common/5792_Sars-Cov-2/Exp_300420/TEM/Tomography/raw_data/{ds_name}/bdv/tomos'
-    create_mobie_dataset(ds_name, root, is_default=False, int_sort=True)
-    update_bookmarks(ds_name, root, int_sort=True)
+    # create_mobie_dataset(ds_name, root, is_default=False, int_sort=True)
+    update_bookmarks(ds_name, root, int_sort=True, ordered_names=True)
