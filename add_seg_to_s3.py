@@ -37,6 +37,7 @@ if __name__ == '__main__':
         'Calu3_MOI0.5_24h_H2',
         'Calu3_MOI5_12h_E3',
         'Calu3_MOI5_24h_C2',
-        'Calu_MOI5_6h_K2'
+        'Calu_MOI5_6h_K2',
+        'E2094_mock_O1'
     ]
-    ds_to_s3(ds_names[3])
+    ds_to_s3(ds_names[4])

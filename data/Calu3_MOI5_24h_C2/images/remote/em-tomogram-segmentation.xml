@@ -10,10 +10,10 @@
       <ViewSetup>
         <id>0</id>
         <name>Setup0</name>
-        <size>2674 522 102</size>
+        <size>2674 1598 102</size>
         <voxelSize>
           <unit>micrometer</unit>
-          <size>0.012464000000000001 0.012464000000000001 0.0031160000000000003</size>
+          <size>0.012432 0.012432 0.003108</size>
         </voxelSize>
         <attributes>
           <channel>0</channel>
@@ -25,7 +25,7 @@
       <last>0</last>
     </Timepoints>
     <ImageLoader format="bdv.n5.s3">
-      <Key>E2094_mock_O1/images/local/em-tomogram-segmentation.n5</Key>
+      <Key>Calu3_MOI5_24h_C2/images/local/em-tomogram-segmentation.n5</Key>
       <SigningRegion>us-west-2</SigningRegion>
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>covid-tomography</BucketName>
@@ -35,7 +35,7 @@
   <ViewRegistrations>
     <ViewRegistration setup="0" timepoint="0">
       <ViewTransform type="affine">
-        <affine>0.012464000000000001 0.0 0.0 0.0 0.0 0.012464000000000001 0.0 0.0 0.0 0.0 0.0031160000000000003 0.0</affine>
+        <affine>0.012432 0.0 0.0 0.0 0.0 0.012432 0.0 0.0 0.0 0.0 0.003108 0.0</affine>
       </ViewTransform>
     </ViewRegistration>
   </ViewRegistrations>
