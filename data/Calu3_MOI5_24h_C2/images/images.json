@@ -10,5 +10,18 @@
       "remote": "remote/em-tomogram.xml"
     },
     "type": "image"
+  },
+  "em-tomogram-segmentation": {
+    "color": "randomFromGlasbey",
+    "contrastLimits": [
+      0.0,
+      1000.0
+    ],
+    "storage": {
+      "local": "local/em-tomogram-segmentation.xml",
+      "remote": "remote/em-tomogram-segmentation.xml"
+    },
+    "tableFolder": "tables/em-tomogram-segmentation",
+    "type": "segmentation"
   }
 }
