@@ -19,7 +19,7 @@ def create_grid_metadata(dataset_folder, files):
     else:
         im_dict = {}
 
-    local_files = []
+    local_files = ["local/" + os.path.split(ff)[1] for ff in files]
     remote_files = [lf.replace('local', 'remote') for lf in local_files]
 
     im_dict.update({
@@ -64,17 +64,18 @@ def make_grid_test():
     files = files[:4]
 
     xml_paths = []
-    name_tamplate = 'em-tomogram-%i'
+    name_template = 'em-tomogram-%i'
+
+    in_key = 't00000/s00/0/cells'
 
     for ii, file_ in enumerate(files, 1):
-        out_key = 'setup0/timepoint0/s0'
-        data_name = name_tamplate % ii
+        data_name = name_template % ii
         tmp_folder = f'tmp_grid-test_{data_name}'
 
         data_path = os.path.join(dataset_folder, 'images', 'local', f'{data_name}.n5')
         xml_path = os.path.join(dataset_folder, 'images', 'local', f'{data_name}.xml')
 
-        downscale(data_path, out_key, data_path, resolution, scale_factors, chunks,
+        downscale(file_, in_key, data_path, resolution, scale_factors, chunks,
                   tmp_folder=tmp_folder, target='local', max_jobs=8,
                   block_shape=chunks, library='skimage')
         xml_paths.append(xml_path)
@@ -84,7 +85,8 @@ def make_grid_test():
 
 
 def make_image_table():
-    table_folder = "tables/grid-test-dataset"
+    dataset_folder = "./data/grid-test-dataset"
+    table_folder = os.path.join(dataset_folder, "tables/grid-test-dataset")
     os.makedirs(table_folder, exist_ok=True)
     table_path = os.path.join(table_folder, 'default.csv')
 

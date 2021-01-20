@@ -1,0 +1,47 @@
+{
+  "grid-test-dataset": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "gridSize": [
+      2,
+      2
+    ],
+    "initialGridPositions": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "storage": {
+      "local": [
+        "local/em-tomogram-1.xml",
+        "local/em-tomogram-2.xml",
+        "local/em-tomogram-3.xml",
+        "local/em-tomogram-4.xml"
+      ],
+      "remote": [
+        "remote/em-tomogram-1.xml",
+        "remote/em-tomogram-2.xml",
+        "remote/em-tomogram-3.xml",
+        "remote/em-tomogram-4.xml"
+      ]
+    },
+    "tableFolder": "tables/grid-test-dataset",
+    "type": "grid"
+  }
+}

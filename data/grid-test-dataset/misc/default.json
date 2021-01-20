@@ -1,0 +1,12 @@
+{
+  "default": {
+    "layers": {
+      "grid-test-dataset": {
+        "contrastLimits": [
+          0.0,
+          255.0
+        ]
+      }
+    }
+  }
+}
