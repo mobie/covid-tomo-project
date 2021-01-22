@@ -1,5 +1,5 @@
-image_id	image_name
-0	tomo1
-1	tomo2
-2	tomo3
-3	tomo4
+image_name	attribute
+em-tomogram-1	tomo1
+em-tomogram-2	tomo2
+em-tomogram-3	tomo3
+em-tomogram-4	tomo4

@@ -6,36 +6,25 @@ import pandas as pd
 
 from mobie.initialization import make_dataset_folders
 from mobie.import_data.util import downscale
-from mobie.metadata import add_dataset
+from mobie.metadata import add_dataset, add_to_image_dict
+from mobie.xml_utils import copy_xml_as_n5_s3
 
+ROOT = './data'
 IN_FOLDER = '/g/emcf/common/5792_Sars-Cov-2/Exp_300420/TEM/Tomography/raw_data/E2094_mock_O1/bdv/tomos'
 
 
-def create_grid_metadata(dataset_folder, files):
+def create_grid_metadata(dataset_folder):
     im_dict_path = os.path.join(dataset_folder, 'images', 'images.json')
-    if os.path.exists(im_dict_path):
-        with open(im_dict_path) as f:
-            im_dict = json.load(f)
-    else:
-        im_dict = {}
+    with open(im_dict_path) as f:
+        im_dict = json.load(f)
 
-    local_files = ["local/" + os.path.split(ff)[1] for ff in files]
-    remote_files = [lf.replace('local', 'remote') for lf in local_files]
-
+    images = ["em-tomogram-1", "em-tomogram-2", "em-tomogram-3", "em-tomogram-4"]
     im_dict.update({
-        "grid-test-dataset": {
-            "type": "grid",
+        "collection-em-tomograms": {
+            "images": images,
+            "type": "collection",
+            "layout": "autoGrid",
             "gridSize": [2, 2],
-            "storage": {
-                "local": local_files,
-                "remote": remote_files
-            },
-            "initialGridPositions": [
-                [0, 0],
-                [0, 1],
-                [1, 0],
-                [1, 1]
-            ],
             "color": "white",
             "contrastLimits": [
                 0.0,
@@ -49,10 +38,27 @@ def create_grid_metadata(dataset_folder, files):
         json.dump(im_dict, f, sort_keys=True, indent=2)
 
 
-def make_grid_test():
-    root_out = './data'
+def add_xml_for_s3(xml_path, data_path):
+    bucket_name = 'covid-tomography'
+    xml_out_path = xml_path.replace('local', 'remote')
+    if os.path.exists(xml_out_path):
+        return
+    path_in_bucket = os.path.relpath(data_path, start=ROOT)
+    copy_xml_as_n5_s3(xml_path, xml_out_path,
+                      service_endpoint='https://s3.embl.de',
+                      bucket_name=bucket_name,
+                      path_in_bucket=path_in_bucket,
+                      authentication='Anonymous')
+
+    print("In order to add the data to the EMBL S3, please run the following command:")
+    full_s3_path = f'embl/{bucket_name}/{path_in_bucket}'
+    mc_command = f"mc cp -r {os.path.relpath(data_path)}/ {full_s3_path}/"
+    print(mc_command)
+
+
+def make_grid_test_data():
     dataset_name = 'grid-test-dataset'
-    dataset_folder = make_dataset_folders(root_out, dataset_name)
+    dataset_folder = make_dataset_folders(ROOT, dataset_name)
 
     chunks = (32, 128, 128)
     resolution = 3 * [1.558]
@@ -78,10 +84,12 @@ def make_grid_test():
         downscale(file_, in_key, data_path, resolution, scale_factors, chunks,
                   tmp_folder=tmp_folder, target='local', max_jobs=8,
                   block_shape=chunks, library='skimage')
+        add_xml_for_s3(xml_path, data_path)
         xml_paths.append(xml_path)
 
-    create_grid_metadata(dataset_folder, xml_paths)
-    add_dataset(root_out, dataset_name, is_default=True)
+        add_to_image_dict(dataset_folder, 'image', xml_path)
+
+    add_dataset(ROOT, dataset_name, is_default=True)
 
 
 def make_image_table():
@@ -91,18 +99,19 @@ def make_image_table():
     table_path = os.path.join(table_folder, 'default.csv')
 
     values = [
-        [0, "tomo1"],
-        [1, "tomo2"],
-        [2, "tomo3"],
-        [3, "tomo4"]
+        ["em-tomogram-1", "tomo1"],
+        ["em-tomogram-2", "tomo2"],
+        ["em-tomogram-3", "tomo3"],
+        ["em-tomogram-4", "tomo4"]
     ]
 
-    columns = ['image_id', 'image_name']
+    columns = ['image_name', 'attribute']
 
     table = pd.DataFrame(values, columns=columns)
     table.to_csv(table_path, index=False, sep='\t')
 
 
 if __name__ == '__main__':
-    make_grid_test()
+    # make_grid_test_data()
+    create_grid_metadata('./data/grid-test-dataset')
     make_image_table()

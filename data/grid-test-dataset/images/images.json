@@ -1,5 +1,5 @@
 {
-  "grid-test-dataset": {
+  "collection-em-tomograms": {
     "color": "white",
     "contrastLimits": [
       0.0,
@@ -9,39 +9,62 @@
       2,
       2
     ],
-    "initialGridPositions": [
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        1,
-        1
-      ]
+    "images": [
+      "em-tomogram-1",
+      "em-tomogram-2",
+      "em-tomogram-3",
+      "em-tomogram-4"
+    ],
+    "layout": "autoGrid",
+    "tableFolder": "tables/grid-test-dataset",
+    "type": "collection"
+  },
+  "em-tomogram-1": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
     ],
     "storage": {
-      "local": [
-        "local/em-tomogram-1.xml",
-        "local/em-tomogram-2.xml",
-        "local/em-tomogram-3.xml",
-        "local/em-tomogram-4.xml"
-      ],
-      "remote": [
-        "remote/em-tomogram-1.xml",
-        "remote/em-tomogram-2.xml",
-        "remote/em-tomogram-3.xml",
-        "remote/em-tomogram-4.xml"
-      ]
+      "local": "local/em-tomogram-1.xml",
+      "remote": "remote/em-tomogram-1.xml"
     },
-    "tableFolder": "tables/grid-test-dataset",
-    "type": "grid"
+    "type": "image"
+  },
+  "em-tomogram-2": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "storage": {
+      "local": "local/em-tomogram-2.xml",
+      "remote": "remote/em-tomogram-2.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-3": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "storage": {
+      "local": "local/em-tomogram-3.xml",
+      "remote": "remote/em-tomogram-3.xml"
+    },
+    "type": "image"
+  },
+  "em-tomogram-4": {
+    "color": "white",
+    "contrastLimits": [
+      0.0,
+      255.0
+    ],
+    "storage": {
+      "local": "local/em-tomogram-4.xml",
+      "remote": "remote/em-tomogram-4.xml"
+    },
+    "type": "image"
   }
 }
