@@ -1,24 +1,4 @@
 {
-  "collection-em-tomograms": {
-    "color": "white",
-    "contrastLimits": [
-      0.0,
-      255.0
-    ],
-    "gridSize": [
-      2,
-      2
-    ],
-    "images": [
-      "em-tomogram-1",
-      "em-tomogram-2",
-      "em-tomogram-3",
-      "em-tomogram-4"
-    ],
-    "layout": "autoGrid",
-    "tableFolder": "tables/grid-test-dataset",
-    "type": "collection"
-  },
   "em-tomogram-1": {
     "color": "white",
     "contrastLimits": [
