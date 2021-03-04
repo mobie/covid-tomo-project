@@ -9,7 +9,8 @@
     "layouts": {
         "gridView": {
             "layers": ["em-tomogram-1", "em-tomogram-2", "em-tomogram-3", "em-tomogram-4"],
-            "layoutType": "AutoGrid"
+            "layoutType": "AutoGrid",
+            "sourceTable": "tables/grid-test-dataset/default.csv"
         }
     }
   }
