@@ -1,0 +1,10 @@
+{
+  "datasets": [
+    "Calu3_MOI0.5_24h_H2"
+  ],
+  "defaultDataset": "Calu3_MOI0.5_24h_H2",
+  "imageDataFormats": [
+    "bdv.n5"
+  ],
+  "specVersion": "0.2.0"
+}
