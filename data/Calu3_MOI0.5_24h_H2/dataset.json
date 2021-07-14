@@ -1,875 +1,875 @@
 {
   "is2D": false,
   "sources": {
-    "lm0004_1_hm": {
+    "lm0004_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0004_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0004_1.xml"
           }
         }
       }
     },
-    "lm0005_1_hm": {
+    "lm0005_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0005_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0005_1.xml"
           }
         }
       }
     },
-    "lm0005_2_hm": {
+    "lm0005_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0005_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0005_2.xml"
           }
         }
       }
     },
-    "lm0006_1_hm": {
+    "lm0006_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0006_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0006_1.xml"
           }
         }
       }
     },
-    "lm0007_1_hm": {
+    "lm0007_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0007_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0007_1.xml"
           }
         }
       }
     },
-    "lm0009_1_hm": {
+    "lm0009_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0009_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0009_1.xml"
           }
         }
       }
     },
-    "lm0011_1_hm": {
+    "lm0011_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0011_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0011_1.xml"
           }
         }
       }
     },
-    "lm0014_1_hm": {
+    "lm0014_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0014_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0014_1.xml"
           }
         }
       }
     },
-    "lm0026_1_hm": {
+    "lm0026_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0026_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0026_1.xml"
           }
         }
       }
     },
-    "lm0033_1_hm": {
+    "lm0033_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0033_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0033_1.xml"
           }
         }
       }
     },
-    "lm0033_2_hm": {
+    "lm0033_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0033_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0033_2.xml"
           }
         }
       }
     },
-    "lm0041_1_hm": {
+    "lm0041_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0041_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0041_1.xml"
           }
         }
       }
     },
-    "lm0060_1_hm": {
+    "lm0060_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0060_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0060_1.xml"
           }
         }
       }
     },
-    "lm0061_1_hm": {
+    "lm0061_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0061_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0061_1.xml"
           }
         }
       }
     },
-    "lm0064_1_hm": {
+    "lm0064_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0064_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0064_1.xml"
           }
         }
       }
     },
-    "lm0065_1_hm": {
+    "lm0065_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0065_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0065_1.xml"
           }
         }
       }
     },
-    "lm0066_1_hm": {
+    "lm0066_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0066_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0066_1.xml"
           }
         }
       }
     },
-    "lm0067_1_hm": {
+    "lm0067_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0067_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0067_1.xml"
           }
         }
       }
     },
-    "lm0074_1_hm": {
+    "lm0074_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0074_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0074_1.xml"
           }
         }
       }
     },
-    "lm0077_1_hm": {
+    "lm0077_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0077_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0077_1.xml"
           }
         }
       }
     },
-    "lm0080_1_hm": {
+    "lm0080_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0080_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0080_1.xml"
           }
         }
       }
     },
-    "lm0090_1_hm": {
+    "lm0090_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0090_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0090_1.xml"
           }
         }
       }
     },
-    "lm0097_1_hm": {
+    "lm0097_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0097_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0097_1.xml"
           }
         }
       }
     },
-    "lm0099_1_hm": {
+    "lm0099_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0099_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0099_1.xml"
           }
         }
       }
     },
-    "lm0107_1_hm": {
+    "lm0107_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0107_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0107_1.xml"
           }
         }
       }
     },
-    "lm0107_2_hm": {
+    "lm0107_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0107_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0107_2.xml"
           }
         }
       }
     },
-    "lm0115_1_hm": {
+    "lm0115_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0115_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0115_1.xml"
           }
         }
       }
     },
-    "lm0116_1_hm": {
+    "lm0116_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0116_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0116_1.xml"
           }
         }
       }
     },
-    "lm0130_1_hm": {
+    "lm0130_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0130_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0130_1.xml"
           }
         }
       }
     },
-    "lm0139_2_hm": {
+    "lm0139_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0139_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0139_2.xml"
           }
         }
       }
     },
-    "lm0140_1_hm": {
+    "lm0140_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0140_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0140_1.xml"
           }
         }
       }
     },
-    "lm0144_1_hm": {
+    "lm0144_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0144_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0144_1.xml"
           }
         }
       }
     },
-    "lm0150_1_hm": {
+    "lm0150_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0150_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0150_1.xml"
           }
         }
       }
     },
-    "lm0151_1_hm": {
+    "lm0151_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0151_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0151_1.xml"
           }
         }
       }
     },
-    "lm0151_2_hm": {
+    "lm0151_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0151_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0151_2.xml"
           }
         }
       }
     },
-    "lm0155_1_hm": {
+    "lm0155_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0155_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0155_1.xml"
           }
         }
       }
     },
-    "lm0155_2_hm": {
+    "lm0155_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0155_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0155_2.xml"
           }
         }
       }
     },
-    "lm0155_3_hm": {
+    "lm0155_3": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0155_3_hm.xml"
+            "relativePath": "images/bdv-n5/lm0155_3.xml"
           }
         }
       }
     },
-    "lm0170_1_hm": {
+    "lm0170_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0170_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0170_1.xml"
           }
         }
       }
     },
-    "lm0173_1_hm": {
+    "lm0173_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0173_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0173_1.xml"
           }
         }
       }
     },
-    "lm0201_1_hm": {
+    "lm0201_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0201_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0201_1.xml"
           }
         }
       }
     },
-    "lm0202_1_hm": {
+    "lm0202_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0202_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0202_1.xml"
           }
         }
       }
     },
-    "lm0207_1_hm": {
+    "lm0207_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0207_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0207_1.xml"
           }
         }
       }
     },
-    "lm0207_2_hm": {
+    "lm0207_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0207_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0207_2.xml"
           }
         }
       }
     },
-    "lm0212_1_hm": {
+    "lm0212_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0212_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0212_1.xml"
           }
         }
       }
     },
-    "lm0218_1_hm": {
+    "lm0218_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0218_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0218_1.xml"
           }
         }
       }
     },
-    "lm0219_1_hm": {
+    "lm0219_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0219_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0219_1.xml"
           }
         }
       }
     },
-    "lm0219_2_hm": {
+    "lm0219_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0219_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0219_2.xml"
           }
         }
       }
     },
-    "lm0274_1_hm": {
+    "lm0274_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0274_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0274_1.xml"
           }
         }
       }
     },
-    "lm0274_2_hm": {
+    "lm0274_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0274_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0274_2.xml"
           }
         }
       }
     },
-    "lm0297_1_hm": {
+    "lm0297_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0297_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0297_1.xml"
           }
         }
       }
     },
-    "lm0304_1_hm": {
+    "lm0304_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0304_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0304_1.xml"
           }
         }
       }
     },
-    "lm0306_1_hm": {
+    "lm0306_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0306_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0306_1.xml"
           }
         }
       }
     },
-    "lm0314_1_hm": {
+    "lm0314_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0314_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0314_1.xml"
           }
         }
       }
     },
-    "lm0315_1_hm": {
+    "lm0315_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0315_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0315_1.xml"
           }
         }
       }
     },
-    "lm0316_1_hm": {
+    "lm0316_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0316_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0316_1.xml"
           }
         }
       }
     },
-    "lm0318_1_hm": {
+    "lm0318_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0318_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0318_1.xml"
           }
         }
       }
     },
-    "lm0318_2_hm": {
+    "lm0318_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0318_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0318_2.xml"
           }
         }
       }
     },
-    "lm0318_3_hm": {
+    "lm0318_3": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0318_3_hm.xml"
+            "relativePath": "images/bdv-n5/lm0318_3.xml"
           }
         }
       }
     },
-    "lm0362_1_hm": {
+    "lm0362_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0362_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0362_1.xml"
           }
         }
       }
     },
-    "lm0368_1_hm": {
+    "lm0368_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0368_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0368_1.xml"
           }
         }
       }
     },
-    "lm0374_1_hm": {
+    "lm0374_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0374_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0374_1.xml"
           }
         }
       }
     },
-    "lm0374_2_hm": {
+    "lm0374_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0374_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0374_2.xml"
           }
         }
       }
     },
-    "lm0375_1_hm": {
+    "lm0375_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0375_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0375_1.xml"
           }
         }
       }
     },
-    "lm0375_2_hm": {
+    "lm0375_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0375_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0375_2.xml"
           }
         }
       }
     },
-    "lm0389_1_hm": {
+    "lm0389_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0389_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0389_1.xml"
           }
         }
       }
     },
-    "lm0408_1_hm": {
+    "lm0408_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0408_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0408_1.xml"
           }
         }
       }
     },
-    "lm0416_1_hm": {
+    "lm0416_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0416_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0416_1.xml"
           }
         }
       }
     },
-    "lm0421_1_hm": {
+    "lm0421_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0421_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0421_1.xml"
           }
         }
       }
     },
-    "lm0421_2_hm": {
+    "lm0421_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0421_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0421_2.xml"
           }
         }
       }
     },
-    "lm0441_1_hm": {
+    "lm0441_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0441_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0441_1.xml"
           }
         }
       }
     },
-    "lm0451_1_hm": {
+    "lm0451_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0451_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0451_1.xml"
           }
         }
       }
     },
-    "lm0451_2_hm": {
+    "lm0451_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0451_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0451_2.xml"
           }
         }
       }
     },
-    "lm0458_1_hm": {
+    "lm0458_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0458_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0458_1.xml"
           }
         }
       }
     },
-    "lm0466_1_hm": {
+    "lm0466_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0466_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0466_1.xml"
           }
         }
       }
     },
-    "lm0511_1_hm": {
+    "lm0511_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0511_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0511_1.xml"
           }
         }
       }
     },
-    "lm0520_1_hm": {
+    "lm0520_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0520_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0520_1.xml"
           }
         }
       }
     },
-    "lm0520_2_hm": {
+    "lm0520_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0520_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0520_2.xml"
           }
         }
       }
     },
-    "lm0608_1_hm": {
+    "lm0608_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0608_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0608_1.xml"
           }
         }
       }
     },
-    "lm0608_2_hm": {
+    "lm0608_2": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0608_2_hm.xml"
+            "relativePath": "images/bdv-n5/lm0608_2.xml"
           }
         }
       }
     },
-    "lm0620_1_hm": {
+    "lm0620_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0620_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0620_1.xml"
           }
         }
       }
     },
-    "lm0629_1_hm": {
+    "lm0629_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0629_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0629_1.xml"
           }
         }
       }
     },
-    "lm0631_1_hm": {
+    "lm0631_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0631_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0631_1.xml"
           }
         }
       }
     },
-    "lm0683_1_hm": {
+    "lm0683_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0683_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0683_1.xml"
           }
         }
       }
     },
-    "lm0686_1_hm": {
+    "lm0686_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0686_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0686_1.xml"
           }
         }
       }
     },
-    "lm0787_1_hm": {
+    "lm0787_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0787_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0787_1.xml"
           }
         }
       }
     },
-    "lm0788_1_hm": {
+    "lm0788_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0788_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0788_1.xml"
           }
         }
       }
     },
-    "lm0791_1_hm": {
+    "lm0791_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0791_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0791_1.xml"
           }
         }
       }
     },
-    "lm0827_1_hm": {
+    "lm0827_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0827_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0827_1.xml"
           }
         }
       }
     },
-    "lm0832_1_hm": {
+    "lm0832_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0832_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0832_1.xml"
           }
         }
       }
     },
-    "lm0862_1_hm": {
+    "lm0862_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0862_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0862_1.xml"
           }
         }
       }
     },
-    "lm0891_1_hm": {
+    "lm0891_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0891_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0891_1.xml"
           }
         }
       }
     },
-    "lm0972_1_hm": {
+    "lm0972_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0972_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0972_1.xml"
           }
         }
       }
     },
-    "lm0979_1_hm": {
+    "lm0979_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm0979_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm0979_1.xml"
           }
         }
       }
     },
-    "lm1002_1_hm": {
+    "lm1002_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm1002_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm1002_1.xml"
           }
         }
       }
     },
-    "lm1015_1_hm": {
+    "lm1015_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm1015_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm1015_1.xml"
           }
         }
       }
     },
-    "lm1049_1_hm": {
+    "lm1049_1": {
       "image": {
         "imageData": {
           "bdv.n5": {
-            "relativePath": "images/bdv-n5/lm1049_1_hm.xml"
+            "relativePath": "images/bdv-n5/lm1049_1.xml"
           }
         }
       }
@@ -878,7 +878,7 @@
   "timepoints": 1,
   "views": {
     "default": {
-      "isExclusive": false,
+      "isExclusive": true,
       "sourceDisplays": [
         {
           "imageDisplay": {
@@ -887,17 +887,720 @@
               0.0,
               255.0
             ],
-            "name": "lm0004_1_hm",
+            "name": "default_images",
             "opacity": 1.0,
             "sources": [
-              "lm0004_1_hm"
+              "lm0004_1",
+              "lm0005_1",
+              "lm0005_2",
+              "lm0006_1",
+              "lm0007_1",
+              "lm0009_1",
+              "lm0011_1",
+              "lm0014_1",
+              "lm0026_1",
+              "lm0033_1",
+              "lm0033_2",
+              "lm0041_1",
+              "lm0060_1",
+              "lm0061_1",
+              "lm0064_1",
+              "lm0065_1",
+              "lm0066_1",
+              "lm0067_1",
+              "lm0074_1",
+              "lm0077_1",
+              "lm0080_1",
+              "lm0090_1",
+              "lm0097_1",
+              "lm0099_1",
+              "lm0107_1",
+              "lm0107_2",
+              "lm0115_1",
+              "lm0116_1",
+              "lm0130_1",
+              "lm0139_2",
+              "lm0140_1",
+              "lm0144_1",
+              "lm0150_1",
+              "lm0151_1",
+              "lm0151_2",
+              "lm0155_1",
+              "lm0155_2",
+              "lm0155_3",
+              "lm0170_1",
+              "lm0173_1",
+              "lm0201_1",
+              "lm0202_1",
+              "lm0207_1",
+              "lm0207_2",
+              "lm0212_1",
+              "lm0218_1",
+              "lm0219_1",
+              "lm0219_2",
+              "lm0274_1",
+              "lm0274_2",
+              "lm0297_1",
+              "lm0304_1",
+              "lm0306_1",
+              "lm0314_1",
+              "lm0315_1",
+              "lm0316_1",
+              "lm0318_1",
+              "lm0318_2",
+              "lm0318_3",
+              "lm0362_1",
+              "lm0368_1",
+              "lm0374_1",
+              "lm0374_2",
+              "lm0375_1",
+              "lm0375_2",
+              "lm0389_1",
+              "lm0408_1",
+              "lm0416_1",
+              "lm0421_1",
+              "lm0421_2",
+              "lm0441_1",
+              "lm0451_1",
+              "lm0451_2",
+              "lm0458_1",
+              "lm0466_1",
+              "lm0511_1",
+              "lm0520_1",
+              "lm0520_2",
+              "lm0608_1",
+              "lm0608_2",
+              "lm0620_1",
+              "lm0629_1",
+              "lm0631_1",
+              "lm0683_1",
+              "lm0686_1",
+              "lm0787_1",
+              "lm0788_1",
+              "lm0791_1",
+              "lm0827_1",
+              "lm0832_1",
+              "lm0862_1",
+              "lm0891_1",
+              "lm0972_1",
+              "lm0979_1",
+              "lm1002_1",
+              "lm1015_1",
+              "lm1049_1"
             ]
+          }
+        },
+        {
+          "sourceAnnotationDisplay": {
+            "lut": "glasbey",
+            "name": "default",
+            "opacity": 0.5,
+            "sources": {
+              "0": [
+                "lm0004_1"
+              ],
+              "1": [
+                "lm0005_1"
+              ],
+              "2": [
+                "lm0005_2"
+              ],
+              "3": [
+                "lm0006_1"
+              ],
+              "4": [
+                "lm0007_1"
+              ],
+              "5": [
+                "lm0009_1"
+              ],
+              "6": [
+                "lm0011_1"
+              ],
+              "7": [
+                "lm0014_1"
+              ],
+              "8": [
+                "lm0026_1"
+              ],
+              "9": [
+                "lm0033_1"
+              ],
+              "10": [
+                "lm0033_2"
+              ],
+              "11": [
+                "lm0041_1"
+              ],
+              "12": [
+                "lm0060_1"
+              ],
+              "13": [
+                "lm0061_1"
+              ],
+              "14": [
+                "lm0064_1"
+              ],
+              "15": [
+                "lm0065_1"
+              ],
+              "16": [
+                "lm0066_1"
+              ],
+              "17": [
+                "lm0067_1"
+              ],
+              "18": [
+                "lm0074_1"
+              ],
+              "19": [
+                "lm0077_1"
+              ],
+              "20": [
+                "lm0080_1"
+              ],
+              "21": [
+                "lm0090_1"
+              ],
+              "22": [
+                "lm0097_1"
+              ],
+              "23": [
+                "lm0099_1"
+              ],
+              "24": [
+                "lm0107_1"
+              ],
+              "25": [
+                "lm0107_2"
+              ],
+              "26": [
+                "lm0115_1"
+              ],
+              "27": [
+                "lm0116_1"
+              ],
+              "28": [
+                "lm0130_1"
+              ],
+              "29": [
+                "lm0139_2"
+              ],
+              "30": [
+                "lm0140_1"
+              ],
+              "31": [
+                "lm0144_1"
+              ],
+              "32": [
+                "lm0150_1"
+              ],
+              "33": [
+                "lm0151_1"
+              ],
+              "34": [
+                "lm0151_2"
+              ],
+              "35": [
+                "lm0155_1"
+              ],
+              "36": [
+                "lm0155_2"
+              ],
+              "37": [
+                "lm0155_3"
+              ],
+              "38": [
+                "lm0170_1"
+              ],
+              "39": [
+                "lm0173_1"
+              ],
+              "40": [
+                "lm0201_1"
+              ],
+              "41": [
+                "lm0202_1"
+              ],
+              "42": [
+                "lm0207_1"
+              ],
+              "43": [
+                "lm0207_2"
+              ],
+              "44": [
+                "lm0212_1"
+              ],
+              "45": [
+                "lm0218_1"
+              ],
+              "46": [
+                "lm0219_1"
+              ],
+              "47": [
+                "lm0219_2"
+              ],
+              "48": [
+                "lm0274_1"
+              ],
+              "49": [
+                "lm0274_2"
+              ],
+              "50": [
+                "lm0297_1"
+              ],
+              "51": [
+                "lm0304_1"
+              ],
+              "52": [
+                "lm0306_1"
+              ],
+              "53": [
+                "lm0314_1"
+              ],
+              "54": [
+                "lm0315_1"
+              ],
+              "55": [
+                "lm0316_1"
+              ],
+              "56": [
+                "lm0318_1"
+              ],
+              "57": [
+                "lm0318_2"
+              ],
+              "58": [
+                "lm0318_3"
+              ],
+              "59": [
+                "lm0362_1"
+              ],
+              "60": [
+                "lm0368_1"
+              ],
+              "61": [
+                "lm0374_1"
+              ],
+              "62": [
+                "lm0374_2"
+              ],
+              "63": [
+                "lm0375_1"
+              ],
+              "64": [
+                "lm0375_2"
+              ],
+              "65": [
+                "lm0389_1"
+              ],
+              "66": [
+                "lm0408_1"
+              ],
+              "67": [
+                "lm0416_1"
+              ],
+              "68": [
+                "lm0421_1"
+              ],
+              "69": [
+                "lm0421_2"
+              ],
+              "70": [
+                "lm0441_1"
+              ],
+              "71": [
+                "lm0451_1"
+              ],
+              "72": [
+                "lm0451_2"
+              ],
+              "73": [
+                "lm0458_1"
+              ],
+              "74": [
+                "lm0466_1"
+              ],
+              "75": [
+                "lm0511_1"
+              ],
+              "76": [
+                "lm0520_1"
+              ],
+              "77": [
+                "lm0520_2"
+              ],
+              "78": [
+                "lm0608_1"
+              ],
+              "79": [
+                "lm0608_2"
+              ],
+              "80": [
+                "lm0620_1"
+              ],
+              "81": [
+                "lm0629_1"
+              ],
+              "82": [
+                "lm0631_1"
+              ],
+              "83": [
+                "lm0683_1"
+              ],
+              "84": [
+                "lm0686_1"
+              ],
+              "85": [
+                "lm0787_1"
+              ],
+              "86": [
+                "lm0788_1"
+              ],
+              "87": [
+                "lm0791_1"
+              ],
+              "88": [
+                "lm0827_1"
+              ],
+              "89": [
+                "lm0832_1"
+              ],
+              "90": [
+                "lm0862_1"
+              ],
+              "91": [
+                "lm0891_1"
+              ],
+              "92": [
+                "lm0972_1"
+              ],
+              "93": [
+                "lm0979_1"
+              ],
+              "94": [
+                "lm1002_1"
+              ],
+              "95": [
+                "lm1015_1"
+              ],
+              "96": [
+                "lm1049_1"
+              ]
+            },
+            "tableData": {
+              "tsv": {
+                "relativePath": "tables/default"
+              }
+            },
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "sourceTransforms": [
+        {
+          "grid": {
+            "sources": {
+              "0": [
+                "lm0004_1"
+              ],
+              "1": [
+                "lm0005_1"
+              ],
+              "2": [
+                "lm0005_2"
+              ],
+              "3": [
+                "lm0006_1"
+              ],
+              "4": [
+                "lm0007_1"
+              ],
+              "5": [
+                "lm0009_1"
+              ],
+              "6": [
+                "lm0011_1"
+              ],
+              "7": [
+                "lm0014_1"
+              ],
+              "8": [
+                "lm0026_1"
+              ],
+              "9": [
+                "lm0033_1"
+              ],
+              "10": [
+                "lm0033_2"
+              ],
+              "11": [
+                "lm0041_1"
+              ],
+              "12": [
+                "lm0060_1"
+              ],
+              "13": [
+                "lm0061_1"
+              ],
+              "14": [
+                "lm0064_1"
+              ],
+              "15": [
+                "lm0065_1"
+              ],
+              "16": [
+                "lm0066_1"
+              ],
+              "17": [
+                "lm0067_1"
+              ],
+              "18": [
+                "lm0074_1"
+              ],
+              "19": [
+                "lm0077_1"
+              ],
+              "20": [
+                "lm0080_1"
+              ],
+              "21": [
+                "lm0090_1"
+              ],
+              "22": [
+                "lm0097_1"
+              ],
+              "23": [
+                "lm0099_1"
+              ],
+              "24": [
+                "lm0107_1"
+              ],
+              "25": [
+                "lm0107_2"
+              ],
+              "26": [
+                "lm0115_1"
+              ],
+              "27": [
+                "lm0116_1"
+              ],
+              "28": [
+                "lm0130_1"
+              ],
+              "29": [
+                "lm0139_2"
+              ],
+              "30": [
+                "lm0140_1"
+              ],
+              "31": [
+                "lm0144_1"
+              ],
+              "32": [
+                "lm0150_1"
+              ],
+              "33": [
+                "lm0151_1"
+              ],
+              "34": [
+                "lm0151_2"
+              ],
+              "35": [
+                "lm0155_1"
+              ],
+              "36": [
+                "lm0155_2"
+              ],
+              "37": [
+                "lm0155_3"
+              ],
+              "38": [
+                "lm0170_1"
+              ],
+              "39": [
+                "lm0173_1"
+              ],
+              "40": [
+                "lm0201_1"
+              ],
+              "41": [
+                "lm0202_1"
+              ],
+              "42": [
+                "lm0207_1"
+              ],
+              "43": [
+                "lm0207_2"
+              ],
+              "44": [
+                "lm0212_1"
+              ],
+              "45": [
+                "lm0218_1"
+              ],
+              "46": [
+                "lm0219_1"
+              ],
+              "47": [
+                "lm0219_2"
+              ],
+              "48": [
+                "lm0274_1"
+              ],
+              "49": [
+                "lm0274_2"
+              ],
+              "50": [
+                "lm0297_1"
+              ],
+              "51": [
+                "lm0304_1"
+              ],
+              "52": [
+                "lm0306_1"
+              ],
+              "53": [
+                "lm0314_1"
+              ],
+              "54": [
+                "lm0315_1"
+              ],
+              "55": [
+                "lm0316_1"
+              ],
+              "56": [
+                "lm0318_1"
+              ],
+              "57": [
+                "lm0318_2"
+              ],
+              "58": [
+                "lm0318_3"
+              ],
+              "59": [
+                "lm0362_1"
+              ],
+              "60": [
+                "lm0368_1"
+              ],
+              "61": [
+                "lm0374_1"
+              ],
+              "62": [
+                "lm0374_2"
+              ],
+              "63": [
+                "lm0375_1"
+              ],
+              "64": [
+                "lm0375_2"
+              ],
+              "65": [
+                "lm0389_1"
+              ],
+              "66": [
+                "lm0408_1"
+              ],
+              "67": [
+                "lm0416_1"
+              ],
+              "68": [
+                "lm0421_1"
+              ],
+              "69": [
+                "lm0421_2"
+              ],
+              "70": [
+                "lm0441_1"
+              ],
+              "71": [
+                "lm0451_1"
+              ],
+              "72": [
+                "lm0451_2"
+              ],
+              "73": [
+                "lm0458_1"
+              ],
+              "74": [
+                "lm0466_1"
+              ],
+              "75": [
+                "lm0511_1"
+              ],
+              "76": [
+                "lm0520_1"
+              ],
+              "77": [
+                "lm0520_2"
+              ],
+              "78": [
+                "lm0608_1"
+              ],
+              "79": [
+                "lm0608_2"
+              ],
+              "80": [
+                "lm0620_1"
+              ],
+              "81": [
+                "lm0629_1"
+              ],
+              "82": [
+                "lm0631_1"
+              ],
+              "83": [
+                "lm0683_1"
+              ],
+              "84": [
+                "lm0686_1"
+              ],
+              "85": [
+                "lm0787_1"
+              ],
+              "86": [
+                "lm0788_1"
+              ],
+              "87": [
+                "lm0791_1"
+              ],
+              "88": [
+                "lm0827_1"
+              ],
+              "89": [
+                "lm0832_1"
+              ],
+              "90": [
+                "lm0862_1"
+              ],
+              "91": [
+                "lm0891_1"
+              ],
+              "92": [
+                "lm0972_1"
+              ],
+              "93": [
+                "lm0979_1"
+              ],
+              "94": [
+                "lm1002_1"
+              ],
+              "95": [
+                "lm1015_1"
+              ],
+              "96": [
+                "lm1049_1"
+              ]
+            }
           }
         }
       ],
       "uiSelectionGroup": "bookmark"
     },
-    "lm0004_1_hm": {
+    "lm0004_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -907,17 +1610,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0004_1_hm",
+            "name": "lm0004_1",
             "opacity": 1.0,
             "sources": [
-              "lm0004_1_hm"
+              "lm0004_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0005_1_hm": {
+    "lm0005_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -927,17 +1630,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0005_1_hm",
+            "name": "lm0005_1",
             "opacity": 1.0,
             "sources": [
-              "lm0005_1_hm"
+              "lm0005_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0005_2_hm": {
+    "lm0005_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -947,17 +1650,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0005_2_hm",
+            "name": "lm0005_2",
             "opacity": 1.0,
             "sources": [
-              "lm0005_2_hm"
+              "lm0005_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0006_1_hm": {
+    "lm0006_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -967,17 +1670,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0006_1_hm",
+            "name": "lm0006_1",
             "opacity": 1.0,
             "sources": [
-              "lm0006_1_hm"
+              "lm0006_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0007_1_hm": {
+    "lm0007_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -987,17 +1690,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0007_1_hm",
+            "name": "lm0007_1",
             "opacity": 1.0,
             "sources": [
-              "lm0007_1_hm"
+              "lm0007_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0009_1_hm": {
+    "lm0009_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1007,17 +1710,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0009_1_hm",
+            "name": "lm0009_1",
             "opacity": 1.0,
             "sources": [
-              "lm0009_1_hm"
+              "lm0009_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0011_1_hm": {
+    "lm0011_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1027,17 +1730,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0011_1_hm",
+            "name": "lm0011_1",
             "opacity": 1.0,
             "sources": [
-              "lm0011_1_hm"
+              "lm0011_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0014_1_hm": {
+    "lm0014_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1047,17 +1750,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0014_1_hm",
+            "name": "lm0014_1",
             "opacity": 1.0,
             "sources": [
-              "lm0014_1_hm"
+              "lm0014_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0026_1_hm": {
+    "lm0026_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1067,17 +1770,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0026_1_hm",
+            "name": "lm0026_1",
             "opacity": 1.0,
             "sources": [
-              "lm0026_1_hm"
+              "lm0026_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0033_1_hm": {
+    "lm0033_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1087,17 +1790,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0033_1_hm",
+            "name": "lm0033_1",
             "opacity": 1.0,
             "sources": [
-              "lm0033_1_hm"
+              "lm0033_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0033_2_hm": {
+    "lm0033_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1107,17 +1810,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0033_2_hm",
+            "name": "lm0033_2",
             "opacity": 1.0,
             "sources": [
-              "lm0033_2_hm"
+              "lm0033_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0041_1_hm": {
+    "lm0041_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1127,17 +1830,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0041_1_hm",
+            "name": "lm0041_1",
             "opacity": 1.0,
             "sources": [
-              "lm0041_1_hm"
+              "lm0041_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0060_1_hm": {
+    "lm0060_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1147,17 +1850,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0060_1_hm",
+            "name": "lm0060_1",
             "opacity": 1.0,
             "sources": [
-              "lm0060_1_hm"
+              "lm0060_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0061_1_hm": {
+    "lm0061_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1167,17 +1870,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0061_1_hm",
+            "name": "lm0061_1",
             "opacity": 1.0,
             "sources": [
-              "lm0061_1_hm"
+              "lm0061_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0064_1_hm": {
+    "lm0064_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1187,17 +1890,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0064_1_hm",
+            "name": "lm0064_1",
             "opacity": 1.0,
             "sources": [
-              "lm0064_1_hm"
+              "lm0064_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0065_1_hm": {
+    "lm0065_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1207,17 +1910,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0065_1_hm",
+            "name": "lm0065_1",
             "opacity": 1.0,
             "sources": [
-              "lm0065_1_hm"
+              "lm0065_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0066_1_hm": {
+    "lm0066_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1227,17 +1930,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0066_1_hm",
+            "name": "lm0066_1",
             "opacity": 1.0,
             "sources": [
-              "lm0066_1_hm"
+              "lm0066_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0067_1_hm": {
+    "lm0067_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1247,17 +1950,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0067_1_hm",
+            "name": "lm0067_1",
             "opacity": 1.0,
             "sources": [
-              "lm0067_1_hm"
+              "lm0067_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0074_1_hm": {
+    "lm0074_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1267,17 +1970,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0074_1_hm",
+            "name": "lm0074_1",
             "opacity": 1.0,
             "sources": [
-              "lm0074_1_hm"
+              "lm0074_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0077_1_hm": {
+    "lm0077_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1287,17 +1990,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0077_1_hm",
+            "name": "lm0077_1",
             "opacity": 1.0,
             "sources": [
-              "lm0077_1_hm"
+              "lm0077_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0080_1_hm": {
+    "lm0080_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1307,17 +2010,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0080_1_hm",
+            "name": "lm0080_1",
             "opacity": 1.0,
             "sources": [
-              "lm0080_1_hm"
+              "lm0080_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0090_1_hm": {
+    "lm0090_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1327,17 +2030,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0090_1_hm",
+            "name": "lm0090_1",
             "opacity": 1.0,
             "sources": [
-              "lm0090_1_hm"
+              "lm0090_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0097_1_hm": {
+    "lm0097_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1347,17 +2050,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0097_1_hm",
+            "name": "lm0097_1",
             "opacity": 1.0,
             "sources": [
-              "lm0097_1_hm"
+              "lm0097_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0099_1_hm": {
+    "lm0099_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1367,17 +2070,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0099_1_hm",
+            "name": "lm0099_1",
             "opacity": 1.0,
             "sources": [
-              "lm0099_1_hm"
+              "lm0099_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0107_1_hm": {
+    "lm0107_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1387,17 +2090,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0107_1_hm",
+            "name": "lm0107_1",
             "opacity": 1.0,
             "sources": [
-              "lm0107_1_hm"
+              "lm0107_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0107_2_hm": {
+    "lm0107_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1407,17 +2110,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0107_2_hm",
+            "name": "lm0107_2",
             "opacity": 1.0,
             "sources": [
-              "lm0107_2_hm"
+              "lm0107_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0115_1_hm": {
+    "lm0115_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1427,17 +2130,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0115_1_hm",
+            "name": "lm0115_1",
             "opacity": 1.0,
             "sources": [
-              "lm0115_1_hm"
+              "lm0115_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0116_1_hm": {
+    "lm0116_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1447,17 +2150,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0116_1_hm",
+            "name": "lm0116_1",
             "opacity": 1.0,
             "sources": [
-              "lm0116_1_hm"
+              "lm0116_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0130_1_hm": {
+    "lm0130_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1467,17 +2170,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0130_1_hm",
+            "name": "lm0130_1",
             "opacity": 1.0,
             "sources": [
-              "lm0130_1_hm"
+              "lm0130_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0139_2_hm": {
+    "lm0139_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1487,17 +2190,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0139_2_hm",
+            "name": "lm0139_2",
             "opacity": 1.0,
             "sources": [
-              "lm0139_2_hm"
+              "lm0139_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0140_1_hm": {
+    "lm0140_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1507,17 +2210,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0140_1_hm",
+            "name": "lm0140_1",
             "opacity": 1.0,
             "sources": [
-              "lm0140_1_hm"
+              "lm0140_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0144_1_hm": {
+    "lm0144_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1527,17 +2230,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0144_1_hm",
+            "name": "lm0144_1",
             "opacity": 1.0,
             "sources": [
-              "lm0144_1_hm"
+              "lm0144_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0150_1_hm": {
+    "lm0150_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1547,17 +2250,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0150_1_hm",
+            "name": "lm0150_1",
             "opacity": 1.0,
             "sources": [
-              "lm0150_1_hm"
+              "lm0150_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0151_1_hm": {
+    "lm0151_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1567,17 +2270,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0151_1_hm",
+            "name": "lm0151_1",
             "opacity": 1.0,
             "sources": [
-              "lm0151_1_hm"
+              "lm0151_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0151_2_hm": {
+    "lm0151_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1587,17 +2290,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0151_2_hm",
+            "name": "lm0151_2",
             "opacity": 1.0,
             "sources": [
-              "lm0151_2_hm"
+              "lm0151_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0155_1_hm": {
+    "lm0155_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1607,17 +2310,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0155_1_hm",
+            "name": "lm0155_1",
             "opacity": 1.0,
             "sources": [
-              "lm0155_1_hm"
+              "lm0155_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0155_2_hm": {
+    "lm0155_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1627,17 +2330,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0155_2_hm",
+            "name": "lm0155_2",
             "opacity": 1.0,
             "sources": [
-              "lm0155_2_hm"
+              "lm0155_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0155_3_hm": {
+    "lm0155_3": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1647,17 +2350,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0155_3_hm",
+            "name": "lm0155_3",
             "opacity": 1.0,
             "sources": [
-              "lm0155_3_hm"
+              "lm0155_3"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0170_1_hm": {
+    "lm0170_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1667,17 +2370,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0170_1_hm",
+            "name": "lm0170_1",
             "opacity": 1.0,
             "sources": [
-              "lm0170_1_hm"
+              "lm0170_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0173_1_hm": {
+    "lm0173_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1687,17 +2390,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0173_1_hm",
+            "name": "lm0173_1",
             "opacity": 1.0,
             "sources": [
-              "lm0173_1_hm"
+              "lm0173_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0201_1_hm": {
+    "lm0201_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1707,17 +2410,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0201_1_hm",
+            "name": "lm0201_1",
             "opacity": 1.0,
             "sources": [
-              "lm0201_1_hm"
+              "lm0201_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0202_1_hm": {
+    "lm0202_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1727,17 +2430,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0202_1_hm",
+            "name": "lm0202_1",
             "opacity": 1.0,
             "sources": [
-              "lm0202_1_hm"
+              "lm0202_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0207_1_hm": {
+    "lm0207_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1747,17 +2450,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0207_1_hm",
+            "name": "lm0207_1",
             "opacity": 1.0,
             "sources": [
-              "lm0207_1_hm"
+              "lm0207_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0207_2_hm": {
+    "lm0207_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1767,17 +2470,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0207_2_hm",
+            "name": "lm0207_2",
             "opacity": 1.0,
             "sources": [
-              "lm0207_2_hm"
+              "lm0207_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0212_1_hm": {
+    "lm0212_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1787,17 +2490,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0212_1_hm",
+            "name": "lm0212_1",
             "opacity": 1.0,
             "sources": [
-              "lm0212_1_hm"
+              "lm0212_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0218_1_hm": {
+    "lm0218_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1807,17 +2510,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0218_1_hm",
+            "name": "lm0218_1",
             "opacity": 1.0,
             "sources": [
-              "lm0218_1_hm"
+              "lm0218_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0219_1_hm": {
+    "lm0219_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1827,17 +2530,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0219_1_hm",
+            "name": "lm0219_1",
             "opacity": 1.0,
             "sources": [
-              "lm0219_1_hm"
+              "lm0219_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0219_2_hm": {
+    "lm0219_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1847,17 +2550,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0219_2_hm",
+            "name": "lm0219_2",
             "opacity": 1.0,
             "sources": [
-              "lm0219_2_hm"
+              "lm0219_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0274_1_hm": {
+    "lm0274_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1867,17 +2570,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0274_1_hm",
+            "name": "lm0274_1",
             "opacity": 1.0,
             "sources": [
-              "lm0274_1_hm"
+              "lm0274_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0274_2_hm": {
+    "lm0274_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1887,17 +2590,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0274_2_hm",
+            "name": "lm0274_2",
             "opacity": 1.0,
             "sources": [
-              "lm0274_2_hm"
+              "lm0274_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0297_1_hm": {
+    "lm0297_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1907,17 +2610,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0297_1_hm",
+            "name": "lm0297_1",
             "opacity": 1.0,
             "sources": [
-              "lm0297_1_hm"
+              "lm0297_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0304_1_hm": {
+    "lm0304_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1927,17 +2630,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0304_1_hm",
+            "name": "lm0304_1",
             "opacity": 1.0,
             "sources": [
-              "lm0304_1_hm"
+              "lm0304_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0306_1_hm": {
+    "lm0306_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1947,17 +2650,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0306_1_hm",
+            "name": "lm0306_1",
             "opacity": 1.0,
             "sources": [
-              "lm0306_1_hm"
+              "lm0306_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0314_1_hm": {
+    "lm0314_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1967,17 +2670,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0314_1_hm",
+            "name": "lm0314_1",
             "opacity": 1.0,
             "sources": [
-              "lm0314_1_hm"
+              "lm0314_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0315_1_hm": {
+    "lm0315_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -1987,17 +2690,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0315_1_hm",
+            "name": "lm0315_1",
             "opacity": 1.0,
             "sources": [
-              "lm0315_1_hm"
+              "lm0315_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0316_1_hm": {
+    "lm0316_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2007,17 +2710,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0316_1_hm",
+            "name": "lm0316_1",
             "opacity": 1.0,
             "sources": [
-              "lm0316_1_hm"
+              "lm0316_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0318_1_hm": {
+    "lm0318_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2027,17 +2730,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0318_1_hm",
+            "name": "lm0318_1",
             "opacity": 1.0,
             "sources": [
-              "lm0318_1_hm"
+              "lm0318_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0318_2_hm": {
+    "lm0318_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2047,17 +2750,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0318_2_hm",
+            "name": "lm0318_2",
             "opacity": 1.0,
             "sources": [
-              "lm0318_2_hm"
+              "lm0318_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0318_3_hm": {
+    "lm0318_3": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2067,17 +2770,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0318_3_hm",
+            "name": "lm0318_3",
             "opacity": 1.0,
             "sources": [
-              "lm0318_3_hm"
+              "lm0318_3"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0362_1_hm": {
+    "lm0362_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2087,17 +2790,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0362_1_hm",
+            "name": "lm0362_1",
             "opacity": 1.0,
             "sources": [
-              "lm0362_1_hm"
+              "lm0362_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0368_1_hm": {
+    "lm0368_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2107,17 +2810,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0368_1_hm",
+            "name": "lm0368_1",
             "opacity": 1.0,
             "sources": [
-              "lm0368_1_hm"
+              "lm0368_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0374_1_hm": {
+    "lm0374_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2127,17 +2830,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0374_1_hm",
+            "name": "lm0374_1",
             "opacity": 1.0,
             "sources": [
-              "lm0374_1_hm"
+              "lm0374_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0374_2_hm": {
+    "lm0374_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2147,17 +2850,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0374_2_hm",
+            "name": "lm0374_2",
             "opacity": 1.0,
             "sources": [
-              "lm0374_2_hm"
+              "lm0374_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0375_1_hm": {
+    "lm0375_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2167,17 +2870,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0375_1_hm",
+            "name": "lm0375_1",
             "opacity": 1.0,
             "sources": [
-              "lm0375_1_hm"
+              "lm0375_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0375_2_hm": {
+    "lm0375_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2187,17 +2890,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0375_2_hm",
+            "name": "lm0375_2",
             "opacity": 1.0,
             "sources": [
-              "lm0375_2_hm"
+              "lm0375_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0389_1_hm": {
+    "lm0389_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2207,17 +2910,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0389_1_hm",
+            "name": "lm0389_1",
             "opacity": 1.0,
             "sources": [
-              "lm0389_1_hm"
+              "lm0389_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0408_1_hm": {
+    "lm0408_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2227,17 +2930,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0408_1_hm",
+            "name": "lm0408_1",
             "opacity": 1.0,
             "sources": [
-              "lm0408_1_hm"
+              "lm0408_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0416_1_hm": {
+    "lm0416_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2247,17 +2950,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0416_1_hm",
+            "name": "lm0416_1",
             "opacity": 1.0,
             "sources": [
-              "lm0416_1_hm"
+              "lm0416_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0421_1_hm": {
+    "lm0421_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2267,17 +2970,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0421_1_hm",
+            "name": "lm0421_1",
             "opacity": 1.0,
             "sources": [
-              "lm0421_1_hm"
+              "lm0421_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0421_2_hm": {
+    "lm0421_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2287,17 +2990,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0421_2_hm",
+            "name": "lm0421_2",
             "opacity": 1.0,
             "sources": [
-              "lm0421_2_hm"
+              "lm0421_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0441_1_hm": {
+    "lm0441_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2307,17 +3010,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0441_1_hm",
+            "name": "lm0441_1",
             "opacity": 1.0,
             "sources": [
-              "lm0441_1_hm"
+              "lm0441_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0451_1_hm": {
+    "lm0451_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2327,17 +3030,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0451_1_hm",
+            "name": "lm0451_1",
             "opacity": 1.0,
             "sources": [
-              "lm0451_1_hm"
+              "lm0451_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0451_2_hm": {
+    "lm0451_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2347,17 +3050,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0451_2_hm",
+            "name": "lm0451_2",
             "opacity": 1.0,
             "sources": [
-              "lm0451_2_hm"
+              "lm0451_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0458_1_hm": {
+    "lm0458_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2367,17 +3070,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0458_1_hm",
+            "name": "lm0458_1",
             "opacity": 1.0,
             "sources": [
-              "lm0458_1_hm"
+              "lm0458_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0466_1_hm": {
+    "lm0466_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2387,17 +3090,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0466_1_hm",
+            "name": "lm0466_1",
             "opacity": 1.0,
             "sources": [
-              "lm0466_1_hm"
+              "lm0466_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0511_1_hm": {
+    "lm0511_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2407,17 +3110,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0511_1_hm",
+            "name": "lm0511_1",
             "opacity": 1.0,
             "sources": [
-              "lm0511_1_hm"
+              "lm0511_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0520_1_hm": {
+    "lm0520_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2427,17 +3130,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0520_1_hm",
+            "name": "lm0520_1",
             "opacity": 1.0,
             "sources": [
-              "lm0520_1_hm"
+              "lm0520_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0520_2_hm": {
+    "lm0520_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2447,17 +3150,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0520_2_hm",
+            "name": "lm0520_2",
             "opacity": 1.0,
             "sources": [
-              "lm0520_2_hm"
+              "lm0520_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0608_1_hm": {
+    "lm0608_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2467,17 +3170,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0608_1_hm",
+            "name": "lm0608_1",
             "opacity": 1.0,
             "sources": [
-              "lm0608_1_hm"
+              "lm0608_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0608_2_hm": {
+    "lm0608_2": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2487,17 +3190,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0608_2_hm",
+            "name": "lm0608_2",
             "opacity": 1.0,
             "sources": [
-              "lm0608_2_hm"
+              "lm0608_2"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0620_1_hm": {
+    "lm0620_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2507,17 +3210,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0620_1_hm",
+            "name": "lm0620_1",
             "opacity": 1.0,
             "sources": [
-              "lm0620_1_hm"
+              "lm0620_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0629_1_hm": {
+    "lm0629_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2527,17 +3230,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0629_1_hm",
+            "name": "lm0629_1",
             "opacity": 1.0,
             "sources": [
-              "lm0629_1_hm"
+              "lm0629_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0631_1_hm": {
+    "lm0631_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2547,17 +3250,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0631_1_hm",
+            "name": "lm0631_1",
             "opacity": 1.0,
             "sources": [
-              "lm0631_1_hm"
+              "lm0631_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0683_1_hm": {
+    "lm0683_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2567,17 +3270,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0683_1_hm",
+            "name": "lm0683_1",
             "opacity": 1.0,
             "sources": [
-              "lm0683_1_hm"
+              "lm0683_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0686_1_hm": {
+    "lm0686_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2587,17 +3290,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0686_1_hm",
+            "name": "lm0686_1",
             "opacity": 1.0,
             "sources": [
-              "lm0686_1_hm"
+              "lm0686_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0787_1_hm": {
+    "lm0787_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2607,17 +3310,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0787_1_hm",
+            "name": "lm0787_1",
             "opacity": 1.0,
             "sources": [
-              "lm0787_1_hm"
+              "lm0787_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0788_1_hm": {
+    "lm0788_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2627,17 +3330,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0788_1_hm",
+            "name": "lm0788_1",
             "opacity": 1.0,
             "sources": [
-              "lm0788_1_hm"
+              "lm0788_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0791_1_hm": {
+    "lm0791_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2647,17 +3350,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0791_1_hm",
+            "name": "lm0791_1",
             "opacity": 1.0,
             "sources": [
-              "lm0791_1_hm"
+              "lm0791_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0827_1_hm": {
+    "lm0827_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2667,17 +3370,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0827_1_hm",
+            "name": "lm0827_1",
             "opacity": 1.0,
             "sources": [
-              "lm0827_1_hm"
+              "lm0827_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0832_1_hm": {
+    "lm0832_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2687,17 +3390,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0832_1_hm",
+            "name": "lm0832_1",
             "opacity": 1.0,
             "sources": [
-              "lm0832_1_hm"
+              "lm0832_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0862_1_hm": {
+    "lm0862_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2707,17 +3410,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0862_1_hm",
+            "name": "lm0862_1",
             "opacity": 1.0,
             "sources": [
-              "lm0862_1_hm"
+              "lm0862_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0891_1_hm": {
+    "lm0891_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2727,17 +3430,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0891_1_hm",
+            "name": "lm0891_1",
             "opacity": 1.0,
             "sources": [
-              "lm0891_1_hm"
+              "lm0891_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0972_1_hm": {
+    "lm0972_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2747,17 +3450,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0972_1_hm",
+            "name": "lm0972_1",
             "opacity": 1.0,
             "sources": [
-              "lm0972_1_hm"
+              "lm0972_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm0979_1_hm": {
+    "lm0979_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2767,17 +3470,17 @@
               0.0,
               255.0
             ],
-            "name": "lm0979_1_hm",
+            "name": "lm0979_1",
             "opacity": 1.0,
             "sources": [
-              "lm0979_1_hm"
+              "lm0979_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm1002_1_hm": {
+    "lm1002_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2787,17 +3490,17 @@
               0.0,
               255.0
             ],
-            "name": "lm1002_1_hm",
+            "name": "lm1002_1",
             "opacity": 1.0,
             "sources": [
-              "lm1002_1_hm"
+              "lm1002_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm1015_1_hm": {
+    "lm1015_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2807,17 +3510,17 @@
               0.0,
               255.0
             ],
-            "name": "lm1015_1_hm",
+            "name": "lm1015_1",
             "opacity": 1.0,
             "sources": [
-              "lm1015_1_hm"
+              "lm1015_1"
             ]
           }
         }
       ],
       "uiSelectionGroup": "em-tomograms"
     },
-    "lm1049_1_hm": {
+    "lm1049_1": {
       "isExclusive": false,
       "sourceDisplays": [
         {
@@ -2827,10 +3530,10 @@
               0.0,
               255.0
             ],
-            "name": "lm1049_1_hm",
+            "name": "lm1049_1",
             "opacity": 1.0,
             "sources": [
-              "lm1049_1_hm"
+              "lm1049_1"
             ]
           }
         }
