@@ -6,5 +6,10 @@
     "Calu_MOI5_6h_K2",
     "E2094_mock_O1"
   ],
-  "defaultDataset": "Calu3_MOI0.5_24h_H2"
+  "defaultDataset": "Calu3_MOI0.5_24h_H2",
+  "imageDataFormats": [
+    "bdv.n5",
+    "bdv.n5.s3"
+  ],
+  "specVersion": "0.2.0"
 }

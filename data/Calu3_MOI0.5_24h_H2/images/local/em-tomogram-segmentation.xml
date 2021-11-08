@@ -12,7 +12,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Setup0</name>
+        <name>em-tomogram-segmentation</name>
         <size>2674 2674 98</size>
         <voxelSize>
           <unit>micrometer</unit>

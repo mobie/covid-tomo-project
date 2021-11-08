@@ -1,0 +1,316 @@
+{
+  "is2D": false,
+  "sources": {
+    "em-tomogram": {
+      "image": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram.xml"
+          }
+        }
+      }
+    },
+    "em-tomogram-segmentation": {
+      "segmentation": {
+        "imageData": {
+          "bdv.n5": {
+            "relativePath": "images/local/em-tomogram-segmentation.xml"
+          },
+          "bdv.n5.s3": {
+            "relativePath": "images/remote/em-tomogram-segmentation.xml"
+          }
+        },
+        "tableData": {
+          "tsv": {
+            "relativePath": "tables/em-tomogram-segmentation"
+          }
+        }
+      }
+    }
+  },
+  "views": {
+    "001": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -0.49540680396285763,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "002": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -1.5134670046317542,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "003": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -2.531527205300651,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "004": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -3.549587405969547,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "005": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -4.5676476066384435,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "006": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -5.58570780730734,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "007": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -6.603768007976237,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "008": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -7.621828208645134,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "009": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -8.63988840931403,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "010": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -9.657948609982927,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -0.5158646667105433,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "011": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -0.49540680396285763,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -1.525730887446329,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "012": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -1.5134670046317542,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -1.525730887446329,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "013": {
+      "isExclusive": false,
+      "uiSelectionGroup": "bookmark",
+      "viewerTransform": {
+        "normalizedAffine": [
+          0.30268568571622034,
+          0.0,
+          0.0,
+          -2.531527205300651,
+          0.0,
+          0.30268568571622034,
+          0.0,
+          -1.525730887446329,
+          -0.0,
+          0.0,
+          0.30268568571622034,
+          -0.046215261237895364
+        ]
+      }
+    },
+    "default": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-tomogram",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "bookmark"
+    }
+  }
+}
