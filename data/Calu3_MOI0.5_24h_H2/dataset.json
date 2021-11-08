@@ -1991,6 +1991,45 @@
         }
       ],
       "uiSelectionGroup": "bookmark"
+    },
+    "em-tomogram": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "em-tomogram",
+            "opacity": 1.0,
+            "sources": [
+              "em-tomogram"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "tomo"
+    },
+    "em-tomogram-segmentation": {
+      "isExclusive": false,
+      "sourceDisplays": [
+        {
+          "segmentationDisplay": {
+            "lut": "glasbey",
+            "name": "em-tomogram-segmentation",
+            "opacity": 0.5,
+            "sources": [
+              "em-tomogram-segmentation"
+            ],
+            "tables": [
+              "default.tsv"
+            ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "position"
     }
   }
 }
