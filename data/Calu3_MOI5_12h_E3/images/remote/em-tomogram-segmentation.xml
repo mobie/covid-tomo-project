@@ -9,7 +9,7 @@
       </Attributes>
       <ViewSetup>
         <id>0</id>
-        <name>Setup0</name>
+        <name>em-tomogram-segmentation</name>
         <size>2674 2405 90</size>
         <voxelSize>
           <unit>micrometer</unit>
@@ -29,7 +29,6 @@
       <SigningRegion>us-west-2</SigningRegion>
       <ServiceEndpoint>https://s3.embl.de</ServiceEndpoint>
       <BucketName>covid-tomography</BucketName>
-      <Authentication>Anonymous</Authentication>
     </ImageLoader>
   </SequenceDescription>
   <ViewRegistrations>
