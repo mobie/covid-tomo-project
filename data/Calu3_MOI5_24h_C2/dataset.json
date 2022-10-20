@@ -1202,9 +1202,6 @@
             "opacity": 0.5,
             "sources": [
               "em-tomogram-segmentation"
-            ],
-            "tables": [
-              "default.tsv"
             ]
           }
         }
