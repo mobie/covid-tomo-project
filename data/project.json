@@ -7,5 +7,9 @@
     "E2094_mock_O1"
   ],
   "defaultDataset": "Calu3_MOI0.5_24h_H2",
+  "description": "Cortese et al. (2020) Covid tomograms, Cell Host & Microbe",
+  "references": [
+    "https://www.sciencedirect.com/science/article/pii/S193131282030620X"
+  ],
   "specVersion": "0.3.0"
 }
